@@ -49,7 +49,7 @@ class FileTree {
     folderTarget.classList.toggle('folder-closed');
 
     const img = folderTarget.querySelector('img');
-    img.src = img.src.includes('folder-open') ? '/static/index/icons/folder-closed.svg' : '/static/index/icons/folder-open.svg';
+    img.src = img.src.includes('folder-open') ? './index/icons/folder-closed.svg' : './index/icons/folder-open.svg';
   }
 
   appendTreeNode(treeNode: TreeNode, parentNode: HTMLElement, currentHref: string) {
