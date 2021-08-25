@@ -1,0 +1,65 @@
+:root {
+  --icon-width: 24px;
+  --icon-height: 24px;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+a {
+  color: #189723;
+}
+
+a:hover {
+  color: #12b820;
+}
+
+#root {
+  width: max-content;
+  height: max-content;
+  margin: 4rem;
+}
+
+.folder, .file {
+  display: flex;
+  width: max-content;
+  height: max-content;
+  align-content: center;
+  gap: 0.5rem;
+  justify-content: flex-start;
+  padding: 0.25rem;
+  flex-direction: column;
+}
+
+.folder {
+  cursor: pointer;
+}
+
+.file-description, .folder-description {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.5rem;
+}
+
+.tree-children {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2rem;
+}
+
+.folder-closed .tree-children {
+  display: none;
+}
+
+.root-clone-item {
+  display: none;
+}

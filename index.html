@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>www.jonasleonhard.de - Static Folder</title>
+    <link rel="stylesheet" href="./index/index.css" />
+    <script type="module" defer src="./index/dist/index.js"></script>
+</head>
+
+<body>
+    <div id="root">
+        <ul class="root-clone-item folder folder-open">
+            <div class="folder-description">
+                <img src="/index/icons/folder-open.svg"></img>
+                <span>{{title}}</span>
+            </div>
+        </ul>
+
+        <ul class="root-clone-item folder folder-closed">
+            <div class="folder-description">
+                <img src="/index/icons/folder-closed.svg"></img>
+                <span>{{title}}</span>
+            </div>
+        </ul>
+
+        <li class="root-clone-item file">
+            <div class="file-description">
+                <img src="/index/icons/file.svg"></img>
+                <a href="{{href}}">
+                    <span>{{title}}</span>
+                </a>
+            </div>
+        </li>
+    </div>
+</body>
+
+</html>
