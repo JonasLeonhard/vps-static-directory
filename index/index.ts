@@ -29,7 +29,7 @@ class FileTree {
     tree.addEventListener("click", this.onTreeClick);
 
     this.tree.forEach(treeNode => {
-      this.appendTreeNode(treeNode, tree, 'static');
+      this.appendTreeNode(treeNode, tree, '');
     });
 
     ROOT_NODE.appendChild(tree);
