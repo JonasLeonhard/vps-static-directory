@@ -5,36 +5,10 @@ type TreeNode = {
 
 const tree: TreeNode[] = [
     {
-      title: "some-stuff",
+      title: "Archive",
       children: [
         {
-          title: "stuff inner",
-          children: [
-            {
-              title: "some.txt"
-            }
-          ]
-        },
-        {
-          title: "stuff inner2",
-          children: [
-            {
-              title: "some2.txt"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      title: "Folder",
-      children: [
-        {
-          title: "Folder inner",
-          children: [
-            {
-              title: "another.txt"
-            }
-          ]
+          title: "Bachelor-Thesis.pdf",
         }
       ]
     }
