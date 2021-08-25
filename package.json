@@ -9,6 +9,6 @@
   "scripts": {
     "build": "tsc ./index/index.ts --outDir index/dist --target 'es2021'",
     "serve": "npx serve",
-    "moveToStatic": "sudo mv ./index.html /var/www/jonasleonhard.de/html/static && sudo mv ./index/dist /var/www/jonasleonhard.de/html/static/index/dist && sudo mv ./index/icons /var/www/jonasleonhard.de/html/static/index sudo mv ./index/index.css /var/www/jonasleonhard.de/html/static/index"
+    "moveToStatic": "sudo cp -r ./index.html /var/www/jonasleonhard.de/html/static && sudo cp -r ./index/dist /var/www/jonasleonhard.de/html/static/index/dist && sudo cp -r ./index/icons /var/www/jonasleonhard.de/html/static/index && sudo cp -r ./index/index.css /var/www/jonasleonhard.de/html/static/index"
   }
 }
